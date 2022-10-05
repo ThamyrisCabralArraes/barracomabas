@@ -1,0 +1,22 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    width: 720px;
+    list-style: none;
+}
+ul li {
+    border: 1px red solid;
+    float: left;
+    background: url(imagem/aba-direita.png) no-repeat top right;
+}
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 32px;
+    line-height: 3em;
+    background: url(imagem/aba-esquerda.png) no-repeat top left;
+    color: #fff;
+}
